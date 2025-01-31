@@ -18,7 +18,7 @@ export const Skills = () => {
       containerClassName=""
       showTick={false}
       showOutput={true}
-      // sliderIconClassName={SliderIconType.}
+      sliderIconClassName={SliderIconType.ROUND_SOLID_THUMB}
     />
   );
 };

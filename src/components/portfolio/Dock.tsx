@@ -21,7 +21,7 @@ export const Dock = () => {
       setTheme={() => setTheme(resolvedTheme === "light" ? "dark" : "light")}
       theme={theme}
       isLoading={isLoading}
-      isCoolModeOn={true}
+      isCoolModeOn={false}
       // className="bg-stone-500"
       // iconClassName={"bg-[#d8d8e2]"}
     />

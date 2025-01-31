@@ -15,9 +15,26 @@ export default function Footer() {
     );
   }
   return (
-    <ContactViewWithAuth
+    <FooterEssential
       email={personalInfo.email}
       phoneNumber={personalInfo.contactNumber}
     />
+  );
+}
+function FooterEssential({
+  email,
+  phoneNumber,
+}: {
+  email: string;
+  phoneNumber: string;
+}) {
+  return (
+    <footer className="text-xl w-full h-48 bg-white dark:bg-black dark:text-white py-6 px-4 justify-center items-center flex">
+      <div className="mx-auto w-fit flex justify-center items-center space-x-3">
+        <p>{email}</p>
+        <p>|</p>
+        <p>{phoneNumber}</p>
+      </div>
+    </footer>
   );
 }
