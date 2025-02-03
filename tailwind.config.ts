@@ -77,6 +77,7 @@ const config: Config = {
           "shimmer-slide var(--speed) ease-in-out infinite alternate",
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         shine: "shine var(--duration) infinite linear",
+        "line-shadow": "line-shadow 15s linear infinite",
       },
       keyframes: {
         "shiny-text": {
@@ -145,6 +146,10 @@ const config: Config = {
           to: {
             "background-position": "0% 0%",
           },
+        },
+        "line-shadow": {
+          "0%": { "background-position": "0 0" },
+          "100%": { "background-position": "100% -100%" },
         },
       },
     },
