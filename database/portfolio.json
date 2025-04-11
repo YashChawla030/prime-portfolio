@@ -17,14 +17,14 @@
   },
   "heroInfo": {
     "displayName": "",
-    "message": "Hey, I am Nitish.",
-    "introduction": "Digital Marketing Speacialist",
-    "description": "Analytical data expert transforming raw data into actionable insights. I optimize decision-making with data visualization & predictive analytics. Let's turn data into powerful strategies."
+    "message": "Hey, I am Nitish. Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.",
+    "introduction": "Digital Marketing Speacialist, Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.",
+    "description": "Analytical data expert transforming raw data into actionable insights. I optimize decision-making with data visualization & predictive analytics. Let's turn data into powerful strategies. Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am Nitish.Hey, I am "
   },
   "skillsInfo": {
     "displayName": "Skills",
     "skills": [
-       {
+      {
         "id": "1740395651799",
         "name": "React Native",
         "rating": 7
@@ -102,7 +102,7 @@
     ],
     "showMovingSkills": true
   },
-    "achievementsInfo": {
+  "achievementsInfo": {
     "displayName": "Achievements",
     "listOfAchievements": [
       {
